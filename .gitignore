@@ -1,0 +1,123 @@
+# =========================
+# Node / React / Vite
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Spring Boot / Java
+# =========================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot logs
+*.log
+
+# =========================
+# Application configuration
+# =========================
+
+# Ignore Spring application properties/yaml
+application.properties
+application.yml
+application.yaml
+
+# But allow example configs
+!application-example.properties
+!application-example.yml
+!application-example.yaml
+
+# =========================
+# Docker
+# =========================
+
+# Docker environment/secrets
+docker/.env
+docker/.env.*
+*.docker.env
+
+# Docker volumes / local data
+docker/data/
+docker/volumes/
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Coverage
+# =========================
+
+coverage/
+.nyc_output/
+
+# =========================
+# Test / generated files
+# =========================
+
+test-results/
+playwright-report/
